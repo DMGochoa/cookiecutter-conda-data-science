@@ -1,6 +1,6 @@
 # Cookiecutter Conda Data Science
 
-_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
+_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work. This project is a fork from the repository made by [jvelezmagic](https://github.com/jvelezmagic/cookiecutter-conda-data-science) and DMGochoa change parts of the template to fulfill special requirements_
 
 ## Requirements
 
