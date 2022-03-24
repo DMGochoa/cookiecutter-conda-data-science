@@ -40,8 +40,12 @@ cookiecutter https://github.com/jvelezmagic/cookiecutter-conda-data-science
     ├── models             <- Trained and serialized models, model predictions, or model summaries.
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    │   │                     the creator's initials, and a short `-` delimited description, e.g.
+    │   │                     `1.0-jqp-initial-data-exploration`.
+    │   ├ 0.0-{{ cookiecutter.project_slug }}-introduction.ipynb
+    │   ├ 0.1-{{ cookiecutter.project_slug }}-exploration_variables.ipynb
+    │   ├ 0.2-{{ cookiecutter.project_slug }}-database_depuration.ipynb
+    │   └ 0.3-{{ cookiecutter.project_slug }}-solution_aapproachs.ipynb
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
@@ -71,7 +75,7 @@ cookiecutter https://github.com/jvelezmagic/cookiecutter-conda-data-science
         │   └── train_model.py
         │
         ├── utils          <- Scripts to help with common tasks.
-            └── paths.py   <- Helper functions to relative file referencing across project.
+        │   └── paths.py   <- Helper functions to relative file referencing across project.
         │
         └── visualization  <- Scripts to create exploratory and results oriented visualizations.
             └── visualize.py
@@ -82,7 +86,7 @@ All contributions, bug reports, bug fixes, documentation improvements, enhanceme
 
 ## Credits
 
-This project is heavily influenced by [drivendata's Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science), [andfanilo's Cookiecutter for Kaggle Conda projects](https://github.com/andfanilo/cookiecutter-kaggle), and julia's package [DrWatson](https://juliadynamics.github.io/DrWatson.jl/dev/).
+This project is heavily influenced by [drivendata's Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science), and [fanilo's Cookiecutter for Kaggle Conda projects](https://github.com/andfanilo/cookiecutter-kaggle), and julia's package [DrWatson](https://juliadynamics.github.io/DrWatson.jl/dev/).
 
 Other links that helped shape this cookiecutter :
 

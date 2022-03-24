@@ -12,6 +12,6 @@ print(f"Initializing a git repository...{RESET_ALL}")
 subprocess.call(['git', 'init'])
 subprocess.call(['git', 'add', '*'])
 subprocess.call(['git', 'commit', '-m', 'Initial commit'])
-subprocess.call(['conda', 'env', 'create', '--file', 'enviroment.yml'])
+subprocess.call(['conda', 'env', 'create', '--file', 'environment.yml'])
 
 print(f"{MESSAGE_COLOR}It's ready the git repository{RESET_ALL}")
